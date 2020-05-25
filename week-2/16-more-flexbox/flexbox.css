@@ -3,3 +3,86 @@
 }
 
 /* Add your own CSS code below */
+
+.countries--first {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.countries--second {
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.countries--second .country:nth-child(1) {
+  order: 5;
+}
+
+.countries--second .country:nth-child(2) {
+  order: 4;
+}
+
+.countries--second .country:nth-child(3) {
+  order: 3;
+}
+
+.countries--second .country:nth-child(4) {
+  order: 2;
+}
+
+.countries--second .country:nth-child(5) {
+  order: 1;
+}
+
+.countries--third {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.countries--third .country:nth-child(1) {
+  align-self: flex-end;
+}
+
+.countries--fourth {
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.countries--fourth .country:nth-child(3) {
+  align-self: center;
+}
+
+.countries--fourth .country:nth-child(4) {
+  align-self: center;
+}
+
+.countries--fifth {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.countries--fifth .country:nth-child(1) {
+  order: 5;
+}
+
+.countries--fifth .country:nth-child(2) {
+  order: 4;
+}
+
+.countries--fifth .country:nth-child(3) {
+  order: 3;
+}
+
+.countries--fifth .country:nth-child(4) {
+  order: 1;
+}
+
+.countries--fifth .country:nth-child(5) {
+  order: 2;
+}
+
+.countries--fifth .country:nth-child(5) {
+  align-self: center;
+}
